@@ -1,0 +1,31 @@
+{
+  "name": "trippy",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "enzyme": "^2.8.2",
+    "nock": "^9.0.13",
+    "react-scripts": "0.9.5",
+    "react-addons-test-utils": "^15.5.1",
+    "redux-mock-store": "^1.2.3"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "lodash.debounce": "^4.0.8",
+    "prop-types": "^15.5.8",
+    "query-string": "^4.3.4",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.4",
+    "react-router-dom": "^4.1.1",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "uuid": "^3.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
